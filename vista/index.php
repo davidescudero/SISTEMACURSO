@@ -310,7 +310,7 @@
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                  <a href="#" class="btn btn-default btn-flat">Configurar Cuenta</a>
                 </div>
                 <div class="pull-right">
                   <a href="../controlador/usuario/controlador_cerrar_session.php" class="btn btn-default btn-flat">Salir</a>
@@ -379,6 +379,9 @@
     	<div class="row" id="contenido_principal">
     		<div class="col-md-12">
 	          <div class="box box-warning box-solid">
+              <input type="text" id="txtidprincipal" value="<?php echo $_SESSION['S_IDUSUARIO']?>" hidden>
+              <input type="text" id="usuarioprincipal" value="<?php echo $_SESSION['S_USER']?>" hidden>
+
 	            <div class="box-header with-border">
 	              <h3 class="box-title">Bienvenido al contenido principal</h3>
 

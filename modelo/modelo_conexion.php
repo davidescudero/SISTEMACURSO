@@ -12,7 +12,7 @@
 
 			$this->servidor = "localhost";
 			$this->usuario = "root";
-			$this->contrasena = "root";
+			$this->contrasena = "";
 			$this->basedatos = "db_curso";
 
 
